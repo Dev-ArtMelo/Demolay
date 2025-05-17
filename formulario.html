@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Formulário - Cap Rodolpho José Munhoz</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Capítulo Rodolpho José Munhoz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Pagina Principal</a></li>
+                <li><a href="sobre.html">Historia do Capitulo</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+                <li><a href="formulario.html" class="active">Formulario</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="texto-principal">
+            <h2>Formulário de Inscrição / Contato</h2>
+            <form action="#" method="post" style="max-width: 500px; margin: 0 auto; text-align: left;">
+                <label for="nome">Nome Completo:</label><br />
+                <input type="text" id="nome" name="nome" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #8B0000; border-radius: 6px;" />
+                
+                <label for="email">E-mail:</label><br />
+                <input type="email" id="email" name="email" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #8B0000; border-radius: 6px;" />
+                
+                <label for="mensagem">Mensagem:</label><br />
+                <textarea id="mensagem" name="mensagem" rows="5" required style="width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #8B0000; border-radius: 6px;"></textarea>
+                
+                <button type="submit" style="
+                    background-color: #8B0000;
+                    color: white;
+                    border: none;
+                    padding: 12px 25px;
+                    font-weight: 600;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: background-color 0.3s ease;
+                ">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contato: contato@exemplo.com | Instagram: @cap.rodolphojosemunhoz</p>
+        <p>Since 1993</p>
+    </footer>
+</body>
+</html>
